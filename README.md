@@ -10,7 +10,7 @@ It stands for Retrieval-Augmented Generation, a technique that combines pre-trai
 4. **Generative Model**: The retrieved documents are then passed to a generative model, such as GPT-3 or BERT, which uses the information from the documents to generate a response. The model can be fine-tuned on specific tasks or domains to improve its performance.
 5. **Response Generation**: Finally, the generative model produces a response based on the retrieved documents and the user query. The response can be in the form of text, summaries, or answers to specific questions.
 
-![RAG Pipeline](../data/rag_pipeline.jpeg) --- IGNORE ---
+![RAG Pipeline](data/rag_pipeline.jpeg)
 
 ## Working of RAG (How I implemented it)
 1. **Ingestion**:  I used the `langchain` library and directory loader to load all the documents from a specified directory. The documents are then split into smaller chunks using a text splitter to ensure that they fit within the context window of the language model. The documents used here are just 4 sample famous research papers in .pdf format.
