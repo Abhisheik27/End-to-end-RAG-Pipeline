@@ -1,0 +1,88 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+eggs/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+
+# Python environment managers
+.python-version
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+.tox/
+*.cover
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nose2-*.xml
+coverage.xml
+htmlcov/
+
+# PyBuilder
+target/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Notebook checkpoints and outputs (keep notebooks themselves but ignore checkpoints)
+# If you don't want to commit notebooks at all, uncomment the next line
+# *.ipynb
+
+# dotenv files (environment variables / secrets)
+.env
+.env.*
+
+# Logs
+*.log
+
+# Databases / persistence
+# Ignore local Chroma/FAISS stores and SQLite DBs used for vector storage
+data/vector_store/
+*.sqlite3
+*.db
+
+# Binary blobs and indexes produced by vector stores, embeddings, etc.
+*.bin
+
+# lockfiles created by package managers (keep if you want reproducible environment)
+# uv.lock
